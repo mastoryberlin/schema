@@ -1,0 +1,70 @@
+import type { JSONSchema } from 'json-schema-to-ts'
+
+export default {
+  oneOf: [
+    {
+      const: 'badenWuerttemberg',
+      description: 'Baden-Württemberg',
+    },
+    {
+      const: 'bayern',
+      description: 'Bayern',
+    },
+    {
+      const: 'berlin',
+      description: 'Berlin',
+    },
+    {
+      const: 'brandenburg',
+      description: 'Brandenburg',
+    },
+    {
+      const: 'bremen',
+      description: 'Bremen',
+    },
+    {
+      const: 'hamburg',
+      description: 'Hamburg',
+    },
+    {
+      const: 'hessen',
+      description: 'Hessen',
+    },
+    {
+      const: 'mecklenburgVorpommern',
+      description: 'Mecklenburg-Vorpommern',
+    },
+    {
+      const: 'niedersachsen',
+      description: 'Niedersachsen',
+    },
+    {
+      const: 'nordrheinWestfalen',
+      description: 'Nordrhein-Westfalen',
+    },
+    {
+      const: 'rheinlandPfalz',
+      description: 'Rheinland-Pfalz',
+    },
+    {
+      const: 'saarland',
+      description: 'Saarland',
+    },
+    {
+      const: 'sachsen',
+      description: 'Sachsen',
+    },
+    {
+      const: 'sachsenAnhalt',
+      description: 'Sachsen-Anhalt',
+    },
+    {
+      const: 'schleswigHolstein',
+      description: 'Schleswig-Holstein',
+    },
+    {
+      const: 'thueringen',
+      description: 'Thüringen',
+    },
+  ],
+} as const satisfies JSONSchema

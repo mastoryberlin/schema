@@ -1,0 +1,9 @@
+# Target Group Notes categories are left out here bc they are added independently based on 'knowledgeTier'
+
+# Documents for Use In Classrooms
+classroom.worksheet="Documents for classroom use: a worksheet either for in-class hand-outs or homework"
+# Plans
+plan.timeline="A timeline"
+# Topic-Specific Notes
+topic.assessment="Topic-specific documents describing an assessment of the current state of knowledge"
+topic.bestPractice="Topic-specific documents describing repeating experiences and best practices"

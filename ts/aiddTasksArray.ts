@@ -1,0 +1,119 @@
+import type { JSONSchema } from 'json-schema-to-ts'
+import aiddTaskType from './aiddTaskType.ts'
+import aiddTaskStatus from './aiddTaskStatus.ts'
+import aiddTaskPriority from './aiddTaskPriority.ts'
+import testStrategy from './testStrategy.ts'
+import layer from './layer.ts'
+import aiddDomain from './aiddDomain.ts'
+
+export default {
+  $schema: 'https://json-schema.org/draft/2019-09/schema',
+  definitions: {
+    task: {
+      type: 'object',
+      properties: {
+        type: aiddTaskType,
+        title: {
+          type: 'string',
+          minLength: 1,
+          maxLength: 50,
+        },
+        status: aiddTaskStatus,
+        priority: aiddTaskPriority,
+        layer,
+        testStrategy,
+        complexity: {
+          type: 'number',
+          minimum: 1,
+          maximum: 10,
+          default: 6,
+        },
+        idea: {
+          type: 'string',
+          minLength: 1,
+        },
+        planMode: {
+          type: 'boolean',
+        },
+        plan: {
+          type: 'string',
+          pattern: '^@\\.plans/[^ ]*\\.s?md$',
+        },
+        prompt: {
+          type: 'string',
+        },
+        followUp: {
+          type: 'string',
+          minLength: 1,
+        },
+        tasks: {
+          $ref: '#/definitions/tasksArray',
+        },
+        sessionId: {
+          type: 'string',
+          pattern: '[0-9a-f]{8}',
+        },
+        worktree: {
+          type: 'string',
+        },
+        dependsOn: {
+          oneOf: [
+            {
+              type: 'string',
+            },
+            {
+              type: 'array',
+              items: {
+                type: 'string',
+              },
+            },
+          ],
+        },
+        stay: {
+          type: 'boolean',
+          default: true,
+        },
+      },
+      required: [
+        'status',
+      ],
+    },
+    tasksArray: {
+      type: 'array',
+      items: {
+        oneOf: [
+          {
+            type: 'string',
+          },
+          {
+            allOf: [
+              {
+                $ref: '#/definitions/task',
+              },
+              {
+                properties: {
+                  domain: aiddDomain,
+                  hints: {
+                    oneOf: [
+                      {
+                        type: 'string',
+                      },
+                      {
+                        type: 'array',
+                        items: {
+                          type: 'string',
+                        },
+                      },
+                    ],
+                  },
+                },
+              },
+            ],
+          },
+        ],
+      },
+    },
+  },
+  $ref: '#/definitions/tasksArray',
+  unevaluatedProperties: false,
+} as const satisfies JSONSchema

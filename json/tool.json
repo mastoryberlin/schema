@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mastory Tool Definition",
+  "definitions": {
+    "goto": {
+      "type": "string"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "const": "activityDuration",
+            "description": "How many minutes do you plan to spend on the activity?"
+          },
+          {
+            "const": "clStage",
+            "description": "Which standards from the curriculum are related to the activity?"
+          },
+          {
+            "const": "cognitiveLevel",
+            "description": ""
+          },
+          {
+            "const": "country",
+            "description": "In which country do your students attend school?"
+          },
+          {
+            "const": "gradeLevel",
+            "description": "What grade level are your students in?"
+          },
+          {
+            "const": "mathTopic",
+            "description": "What math topic would you like to focus on? (e.g., basic arithmetic, solving quadratic equations by factoring, calculating the area of irregular shapes)"
+          },
+          {
+            "const": "pedagogicalUseCase",
+            "description": "Which didactic use-case best matches the lesson in question?"
+          },
+          {
+            "const": "standards",
+            "description": ""
+          },
+          {
+            "const": "targetGroup",
+            "description": ""
+          }
+        ]
+      }
+    },
+    "inputExamples": {
+      "type": "object",
+      "propertyNames": {
+        "oneOf": [
+          {
+            "const": "en",
+            "description": "English"
+          },
+          {
+            "const": "de",
+            "description": "Deutsch"
+          },
+          {
+            "const": "hu",
+            "description": "Magyar"
+          }
+        ]
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "propertyNames": {
+            "oneOf": [
+              {
+                "const": "activityDuration",
+                "description": "How many minutes do you plan to spend on the activity?"
+              },
+              {
+                "const": "clStage",
+                "description": "Which standards from the curriculum are related to the activity?"
+              },
+              {
+                "const": "cognitiveLevel",
+                "description": ""
+              },
+              {
+                "const": "country",
+                "description": "In which country do your students attend school?"
+              },
+              {
+                "const": "gradeLevel",
+                "description": "What grade level are your students in?"
+              },
+              {
+                "const": "mathTopic",
+                "description": "What math topic would you like to focus on? (e.g., basic arithmetic, solving quadratic equations by factoring, calculating the area of irregular shapes)"
+              },
+              {
+                "const": "pedagogicalUseCase",
+                "description": "Which didactic use-case best matches the lesson in question?"
+              },
+              {
+                "const": "standards",
+                "description": ""
+              },
+              {
+                "const": "targetGroup",
+                "description": ""
+              }
+            ]
+          }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "model": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "uses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "max_attempts": {
+            "type": "number"
+          },
+          "if": {
+            "type": "string"
+          },
+          "then": {
+            "oneOf": [
+              {
+                "type": "string",
+                "const": "end"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "goto": {
+                    "$ref": "#/definitions/goto"
+                  }
+                }
+              }
+            ]
+          },
+          "with": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "do": {
+            "type": "object",
+            "oneOf": [
+              {
+                "properties": {
+                  "goto": {
+                    "$ref": "#/definitions/goto"
+                  }
+                }
+              }
+            ]
+          },
+          "parallel": {
+            "type": "number"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "description",
+    "inputs",
+    "steps"
+  ],
+  "unevaluatedProperties": false
+}

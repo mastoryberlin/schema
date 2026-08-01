@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "required": [
+    "edusys",
+    "org",
+    "account",
+    "student",
+    "info",
+    "classroom.worksheet",
+    "plan.timeline",
+    "topic.assessment",
+    "topic.bestPractice"
+  ]
+}

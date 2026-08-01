@@ -1,0 +1,6 @@
+chat="Try to determine value from the conversation with the user. If `referDocumentCategories` is specified, use data derived from those documents as a fallback but use the chat to double-check if it matches the current conversation intent."
+form="Show an input field as part of a structured input form inside the generation frame."
+followUp="This value is expected to be stored as hidden metadata in the genFrame as a result of a previous generation."
+computed="This value is derived from other shared properties by the data agent (using dedicated \"computer tools\")."
+genFramePlaceholder="Directly use the genFrame placeholder text to set this value."
+documents="This value is derived from available documents that match the `documentCategories` by the data agent. If no such values are stored yet, chat with the user to fill the gaps."

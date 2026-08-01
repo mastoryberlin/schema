@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "title": "Mastory Shared Property Definition",
+  "type": "object",
+  "allOf": [
+    {
+      "properties": {
+        "valueStrategy": {
+          "oneOf": [
+            {
+              "const": "chat",
+              "description": "Try to determine value from the conversation with the user. If `referDocumentCategories` is specified, use data derived from those documents as a fallback but use the chat to double-check if it matches the current conversation intent."
+            },
+            {
+              "const": "form",
+              "description": "Show an input field as part of a structured input form inside the generation frame."
+            },
+            {
+              "const": "followUp",
+              "description": "This value is expected to be stored as hidden metadata in the genFrame as a result of a previous generation."
+            },
+            {
+              "const": "computed",
+              "description": "This value is derived from other shared properties by the data agent (using dedicated \"computer tools\")."
+            },
+            {
+              "const": "genFramePlaceholder",
+              "description": "Directly use the genFrame placeholder text to set this value."
+            },
+            {
+              "const": "documents",
+              "description": "This value is derived from available documents that match the `documentCategories` by the data agent. If no such values are stored yet, chat with the user to fill the gaps."
+            }
+          ]
+        },
+        "optional": {
+          "type": "boolean",
+          "default": true
+        },
+        "schema": {
+          "$ref": "https://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "valueStrategy": {
+            "const": "chat"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "referDocumentCategories": {
+            "type": "array",
+            "items": {
+              "$ref": "./documentCategories.json"
+            },
+            "uniqueItems": true,
+            "minItems": 1
+          }
+        },
+        "required": [
+          "valueStrategy",
+          "schema"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "valueStrategy": {
+            "const": "documents"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "documentCategories": {
+            "type": "array",
+            "items": {
+              "$ref": "./documentCategories.json"
+            },
+            "uniqueItems": true,
+            "minItems": 1
+          }
+        },
+        "required": [
+          "valueStrategy",
+          "schema",
+          "documentCategories"
+        ]
+      },
+      "else": {
+        "required": [
+          "valueStrategy",
+          "schema"
+        ]
+      }
+    }
+  ],
+  "unevaluatedProperties": false
+}

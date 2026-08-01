@@ -1,0 +1,6 @@
+frame="Evaluated separately for each genFrame."
+document="Evaluated separately for each document. All genFrames within a document share the same value."
+conversation="Evaluated separately for each conversation. All material documents attached to a conversation share the same value."
+profile="Evaluated separately for each profile. All conversations within an account which target the same profile share the same value."
+account="Evaluated separately for each account. The value is shared across all profiles, conversation, and documents that belong to this account."
+organization="Evaluated separately for each school or organization. The value is shared across all profiles, conversation, and documents that belong to this account."

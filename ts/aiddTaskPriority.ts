@@ -1,0 +1,18 @@
+import type { JSONSchema } from 'json-schema-to-ts'
+
+export default {
+  oneOf: [
+    {
+      const: 1,
+      description: 'Highest priority - pick these tasks first as long as any exist.',
+    },
+    {
+      const: 2,
+      description: 'Medium priority - pick these tasks only when no priority 1 tasks exist.',
+    },
+    {
+      const: 3,
+      description: 'Lowest priority - pick these tasks only when no priority 1 or 2 tasks exist. This is the default priority.',
+    },
+  ],
+} as const satisfies JSONSchema

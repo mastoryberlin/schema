@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "oneOf": [
+    {
+      "const": "openDispatch",
+      "description": "Find out what a new chat should be about, then dispatch to another focus accordingly."
+    },
+    {
+      "const": "setUpNewSchool",
+      "description": "Chat with the user to collect information on a new school, including: students, colleagues, parents, specialties ...?"
+    },
+    {
+      "const": "setUpNewClass",
+      "description": "Chat with the user to collect information on a new class, including: grade level, group size, academic strength, group structure and dynamics, discipline, observations, special remarks ..."
+    },
+    {
+      "const": "setUpNewSubGroup",
+      "description": "Chat with the user to collect information on a new subgroup of students within a class (including the case of just one individual student): academic strength and weaknesses, learning type, discipline, observations, special remarks ..."
+    },
+    {
+      "const": "clarifyGenerationGoal",
+      "description": "Chat with the user to get a detailed idea of what they ultimately want us to generate in the current request."
+    },
+    {
+      "const": "consult",
+      "description": "Be a focused didactic consultant to help the user work around their current challenges."
+    },
+    {
+      "const": "coCreate",
+      "description": "Work out a canvas document in an iterative process including AI generation and manual edits applied by the user."
+    },
+    {
+      "const": "collectExtraData",
+      "description": "Ask user targeted questions and use the answers to create missing background docs, complete existing ones, and populate shared property values on the fly."
+    },
+    {
+      "const": "finalize",
+      "description": "Help the user share the canvas document, print it, or otherwise prepare it for usage in-class or outside."
+    },
+    {
+      "const": "revisit",
+      "description": "Find out why the user reopened the document this time, then dispatch to another focus accordingly."
+    },
+    {
+      "const": "evaluateGeneratedQuality",
+      "description": ""
+    }
+  ]
+}

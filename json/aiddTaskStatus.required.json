@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "required": [
+    "idea",
+    "needsPlan",
+    "planned",
+    "approved",
+    "ready",
+    "inProgress",
+    "interrupted",
+    "onHold",
+    "review",
+    "done"
+  ]
+}
