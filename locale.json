@@ -1,0 +1,16 @@
+{
+  oneOf: [
+    {
+      const: 'en',
+      description: 'English',
+    },
+    {
+      const: 'de',
+      description: 'Deutsch',
+    },
+    {
+      const: 'hu',
+      description: 'Magyar',
+    },
+  ],
+}

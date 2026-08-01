@@ -1,0 +1,6 @@
+{
+  required: [
+    'unitTests',
+    'manual',
+  ],
+}

@@ -1,0 +1,2 @@
+export const aiddTaskPriority = [1, 2, 3]
+export type AiddTaskPriority = typeof aiddTaskPriority[number]

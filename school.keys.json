@@ -1,0 +1,2 @@
+export const school = ['foerderschule', 'gemeinschaftsschule', 'grundschule', 'gymnasium', 'issMitOberstufe', 'issOhneOberstufe']
+export type School = typeof school[number]

@@ -1,0 +1,2 @@
+export const documentCategory = [...knowledgeTier.map<`knowledge.${KnowledgeTier}`>(t => `knowledge.${t}`), 'classroom.worksheet', 'plan.timeline', 'topic.assessment', 'topic.bestPractice']
+export type DocumentCategory = typeof documentCategory[number]

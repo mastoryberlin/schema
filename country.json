@@ -1,0 +1,1000 @@
+{
+  oneOf: [
+    {
+      const: 'AF',
+      description: 'Afghanistan',
+    },
+    {
+      const: 'AX',
+      description: 'Åland Islands',
+    },
+    {
+      const: 'AL',
+      description: 'Albania',
+    },
+    {
+      const: 'DZ',
+      description: 'Algeria',
+    },
+    {
+      const: 'AS',
+      description: 'American Samoa',
+    },
+    {
+      const: 'AD',
+      description: 'Andorra',
+    },
+    {
+      const: 'AO',
+      description: 'Angola',
+    },
+    {
+      const: 'AI',
+      description: 'Anguilla',
+    },
+    {
+      const: 'AQ',
+      description: 'Antarctica',
+    },
+    {
+      const: 'AG',
+      description: 'Antigua and Barbuda',
+    },
+    {
+      const: 'AR',
+      description: 'Argentina',
+    },
+    {
+      const: 'AM',
+      description: 'Armenia',
+    },
+    {
+      const: 'AW',
+      description: 'Aruba',
+    },
+    {
+      const: 'AU',
+      description: 'Australia',
+    },
+    {
+      const: 'AT',
+      description: 'Austria',
+    },
+    {
+      const: 'AZ',
+      description: 'Azerbaijan',
+    },
+    {
+      const: 'BS',
+      description: 'Bahamas, The',
+    },
+    {
+      const: 'BH',
+      description: 'Bahrain',
+    },
+    {
+      const: 'BD',
+      description: 'Bangladesh',
+    },
+    {
+      const: 'BB',
+      description: 'Barbados',
+    },
+    {
+      const: 'BY',
+      description: 'Belarus',
+    },
+    {
+      const: 'BE',
+      description: 'Belgium',
+    },
+    {
+      const: 'BZ',
+      description: 'Belize',
+    },
+    {
+      const: 'BJ',
+      description: 'Benin',
+    },
+    {
+      const: 'BM',
+      description: 'Bermuda',
+    },
+    {
+      const: 'BT',
+      description: 'Bhutan',
+    },
+    {
+      const: 'BO',
+      description: 'Bolivia',
+    },
+    {
+      const: 'BQ',
+      description: 'Bonaire, Sint Eustatius and Saba',
+    },
+    {
+      const: 'BA',
+      description: 'Bosnia and Herzegovina',
+    },
+    {
+      const: 'BW',
+      description: 'Botswana',
+    },
+    {
+      const: 'BV',
+      description: 'Bouvet Island',
+    },
+    {
+      const: 'BR',
+      description: 'Brazil',
+    },
+    {
+      const: 'IO',
+      description: 'British Indian Ocean Territory',
+    },
+    {
+      const: 'BN',
+      description: 'Brunei',
+    },
+    {
+      const: 'BG',
+      description: 'Bulgaria',
+    },
+    {
+      const: 'BF',
+      description: 'Burkina Faso',
+    },
+    {
+      const: 'BI',
+      description: 'Burundi',
+    },
+    {
+      const: 'CV',
+      description: 'Cape Verde',
+    },
+    {
+      const: 'KH',
+      description: 'Cambodia',
+    },
+    {
+      const: 'CM',
+      description: 'Cameroon',
+    },
+    {
+      const: 'CA',
+      description: 'Canada',
+    },
+    {
+      const: 'KY',
+      description: 'Cayman Islands',
+    },
+    {
+      const: 'CF',
+      description: 'Central African Republic',
+    },
+    {
+      const: 'TD',
+      description: 'Chad',
+    },
+    {
+      const: 'CL',
+      description: 'Chile',
+    },
+    {
+      const: 'CN',
+      description: 'China',
+    },
+    {
+      const: 'CX',
+      description: 'Christmas Island',
+    },
+    {
+      const: 'CC',
+      description: 'Cocos (Keeling) Islands',
+    },
+    {
+      const: 'CO',
+      description: 'Colombia',
+    },
+    {
+      const: 'KM',
+      description: 'Comoros',
+    },
+    {
+      const: 'CD',
+      description: 'Congo (DRC)',
+    },
+    {
+      const: 'CG',
+      description: 'Congo',
+    },
+    {
+      const: 'CK',
+      description: 'Cook Islands',
+    },
+    {
+      const: 'CR',
+      description: 'Costa Rica',
+    },
+    {
+      const: 'CI',
+      description: 'Côte d\'Ivoire',
+    },
+    {
+      const: 'HR',
+      description: 'Croatia',
+    },
+    {
+      const: 'CU',
+      description: 'Cuba',
+    },
+    {
+      const: 'CW',
+      description: 'Curaçao',
+    },
+    {
+      const: 'CY',
+      description: 'Cyprus',
+    },
+    {
+      const: 'CZ',
+      description: 'Czech Republic',
+    },
+    {
+      const: 'DK',
+      description: 'Denmark',
+    },
+    {
+      const: 'DJ',
+      description: 'Djibouti',
+    },
+    {
+      const: 'DM',
+      description: 'Dominica',
+    },
+    {
+      const: 'DO',
+      description: 'Dominican Republic',
+    },
+    {
+      const: 'EC',
+      description: 'Ecuador',
+    },
+    {
+      const: 'EG',
+      description: 'Egypt',
+    },
+    {
+      const: 'SV',
+      description: 'El Salvador',
+    },
+    {
+      const: 'GQ',
+      description: 'Equatorial Guinea',
+    },
+    {
+      const: 'ER',
+      description: 'Eritrea',
+    },
+    {
+      const: 'EE',
+      description: 'Estonia',
+    },
+    {
+      const: 'ET',
+      description: 'Ethiopia',
+    },
+    {
+      const: 'FK',
+      description: 'Falkland Islands (Islas Malvinas)',
+    },
+    {
+      const: 'FO',
+      description: 'Faroe Islands',
+    },
+    {
+      const: 'FJ',
+      description: 'Fiji Islands',
+    },
+    {
+      const: 'FI',
+      description: 'Finland',
+    },
+    {
+      const: 'FR',
+      description: 'France',
+    },
+    {
+      const: 'GF',
+      description: 'French Guiana',
+    },
+    {
+      const: 'PF',
+      description: 'French Polynesia',
+    },
+    {
+      const: 'TF',
+      description: 'French Southern and Antarctic Lands',
+    },
+    {
+      const: 'GA',
+      description: 'Gabon',
+    },
+    {
+      const: 'GM',
+      description: 'Gambia, The',
+    },
+    {
+      const: 'GE',
+      description: 'Georgia',
+    },
+    {
+      const: 'DE',
+      description: 'Germany',
+    },
+    {
+      const: 'GH',
+      description: 'Ghana',
+    },
+    {
+      const: 'GI',
+      description: 'Gibraltar',
+    },
+    {
+      const: 'GR',
+      description: 'Greece',
+    },
+    {
+      const: 'GL',
+      description: 'Greenland',
+    },
+    {
+      const: 'GD',
+      description: 'Grenada',
+    },
+    {
+      const: 'GP',
+      description: 'Guadeloupe',
+    },
+    {
+      const: 'GU',
+      description: 'Guam',
+    },
+    {
+      const: 'GT',
+      description: 'Guatemala',
+    },
+    {
+      const: 'GG',
+      description: 'Guernsey',
+    },
+    {
+      const: 'GN',
+      description: 'Guinea',
+    },
+    {
+      const: 'GW',
+      description: 'Guinea-Bissau',
+    },
+    {
+      const: 'GY',
+      description: 'Guyana',
+    },
+    {
+      const: 'HT',
+      description: 'Haiti',
+    },
+    {
+      const: 'HM',
+      description: 'Heard Island and McDonald Islands',
+    },
+    {
+      const: 'VA',
+      description: 'Vatican City',
+    },
+    {
+      const: 'HN',
+      description: 'Honduras',
+    },
+    {
+      const: 'HK',
+      description: 'Hong Kong SAR',
+    },
+    {
+      const: 'HU',
+      description: 'Hungary',
+    },
+    {
+      const: 'IS',
+      description: 'Iceland',
+    },
+    {
+      const: 'IN',
+      description: 'India',
+    },
+    {
+      const: 'ID',
+      description: 'Indonesia',
+    },
+    {
+      const: 'IR',
+      description: 'Iran',
+    },
+    {
+      const: 'IQ',
+      description: 'Iraq',
+    },
+    {
+      const: 'IE',
+      description: 'Ireland',
+    },
+    {
+      const: 'IM',
+      description: 'Man, Isle of',
+    },
+    {
+      const: 'IL',
+      description: 'Israel',
+    },
+    {
+      const: 'IT',
+      description: 'Italy',
+    },
+    {
+      const: 'JM',
+      description: 'Jamaica',
+    },
+    {
+      const: 'JP',
+      description: 'Japan',
+    },
+    {
+      const: 'JE',
+      description: 'Jersey',
+    },
+    {
+      const: 'JO',
+      description: 'Jordan',
+    },
+    {
+      const: 'KZ',
+      description: 'Kazakhstan',
+    },
+    {
+      const: 'KE',
+      description: 'Kenya',
+    },
+    {
+      const: 'KI',
+      description: 'Kiribati',
+    },
+    {
+      const: 'KP',
+      description: 'North Korea',
+    },
+    {
+      const: 'KR',
+      description: 'Korea',
+    },
+    {
+      const: 'KW',
+      description: 'Kuwait',
+    },
+    {
+      const: 'KG',
+      description: 'Kyrgyzstan',
+    },
+    {
+      const: 'LA',
+      description: 'Laos',
+    },
+    {
+      const: 'LV',
+      description: 'Latvia',
+    },
+    {
+      const: 'LB',
+      description: 'Lebanon',
+    },
+    {
+      const: 'LS',
+      description: 'Lesotho',
+    },
+    {
+      const: 'LR',
+      description: 'Liberia',
+    },
+    {
+      const: 'LY',
+      description: 'Libya',
+    },
+    {
+      const: 'LI',
+      description: 'Liechtenstein',
+    },
+    {
+      const: 'LT',
+      description: 'Lithuania',
+    },
+    {
+      const: 'LU',
+      description: 'Luxembourg',
+    },
+    {
+      const: 'MO',
+      description: 'Macao SAR',
+    },
+    {
+      const: 'MK',
+      description: 'Macedonia, Former Yugoslav Republic of',
+    },
+    {
+      const: 'MG',
+      description: 'Madagascar',
+    },
+    {
+      const: 'MW',
+      description: 'Malawi',
+    },
+    {
+      const: 'MY',
+      description: 'Malaysia',
+    },
+    {
+      const: 'MV',
+      description: 'Maldives',
+    },
+    {
+      const: 'ML',
+      description: 'Mali',
+    },
+    {
+      const: 'MT',
+      description: 'Malta',
+    },
+    {
+      const: 'MH',
+      description: 'Marshall Islands',
+    },
+    {
+      const: 'MQ',
+      description: 'Martinique',
+    },
+    {
+      const: 'MR',
+      description: 'Mauritania',
+    },
+    {
+      const: 'MU',
+      description: 'Mauritius',
+    },
+    {
+      const: 'YT',
+      description: 'Mayotte',
+    },
+    {
+      const: 'MX',
+      description: 'Mexico',
+    },
+    {
+      const: 'FM',
+      description: 'Micronesia',
+    },
+    {
+      const: 'MD',
+      description: 'Moldova',
+    },
+    {
+      const: 'MC',
+      description: 'Monaco',
+    },
+    {
+      const: 'MN',
+      description: 'Mongolia',
+    },
+    {
+      const: 'ME',
+      description: 'Montenegro',
+    },
+    {
+      const: 'MS',
+      description: 'Montserrat',
+    },
+    {
+      const: 'MA',
+      description: 'Morocco',
+    },
+    {
+      const: 'MZ',
+      description: 'Mozambique',
+    },
+    {
+      const: 'MM',
+      description: 'Myanmar',
+    },
+    {
+      const: 'NA',
+      description: 'Namibia',
+    },
+    {
+      const: 'NR',
+      description: 'Nauru',
+    },
+    {
+      const: 'NP',
+      description: 'Nepal',
+    },
+    {
+      const: 'NL',
+      description: 'Netherlands',
+    },
+    {
+      const: 'NC',
+      description: 'New Caledonia',
+    },
+    {
+      const: 'NZ',
+      description: 'New Zealand',
+    },
+    {
+      const: 'NI',
+      description: 'Nicaragua',
+    },
+    {
+      const: 'NE',
+      description: 'Niger',
+    },
+    {
+      const: 'NG',
+      description: 'Nigeria',
+    },
+    {
+      const: 'NU',
+      description: 'Niue',
+    },
+    {
+      const: 'NF',
+      description: 'Norfolk Island',
+    },
+    {
+      const: 'MP',
+      description: 'Northern Mariana Islands',
+    },
+    {
+      const: 'NO',
+      description: 'Norway',
+    },
+    {
+      const: 'OM',
+      description: 'Oman',
+    },
+    {
+      const: 'PK',
+      description: 'Pakistan',
+    },
+    {
+      const: 'PW',
+      description: 'Palau',
+    },
+    {
+      const: 'PS',
+      description: 'Palestinian Authority',
+    },
+    {
+      const: 'PA',
+      description: 'Panama',
+    },
+    {
+      const: 'PG',
+      description: 'Papua New Guinea',
+    },
+    {
+      const: 'PY',
+      description: 'Paraguay',
+    },
+    {
+      const: 'PE',
+      description: 'Peru',
+    },
+    {
+      const: 'PH',
+      description: 'Philippines',
+    },
+    {
+      const: 'PN',
+      description: 'Pitcairn Islands',
+    },
+    {
+      const: 'PL',
+      description: 'Poland',
+    },
+    {
+      const: 'PT',
+      description: 'Portugal',
+    },
+    {
+      const: 'PR',
+      description: 'Puerto Rico',
+    },
+    {
+      const: 'QA',
+      description: 'Qatar',
+    },
+    {
+      const: 'RE',
+      description: 'Réunion',
+    },
+    {
+      const: 'RO',
+      description: 'Romania',
+    },
+    {
+      const: 'RU',
+      description: 'Russia',
+    },
+    {
+      const: 'RW',
+      description: 'Rwanda',
+    },
+    {
+      const: 'BL',
+      description: 'Saint Barthélemy',
+    },
+    {
+      const: 'SH',
+      description: 'Saint Helena, Ascension and Tristan da Cunha',
+    },
+    {
+      const: 'KN',
+      description: 'St. Kitts and Nevis',
+    },
+    {
+      const: 'LC',
+      description: 'St. Lucia',
+    },
+    {
+      const: 'MF',
+      description: 'Saint Martin (French part)',
+    },
+    {
+      const: 'PM',
+      description: 'St. Pierre and Miquelon',
+    },
+    {
+      const: 'VC',
+      description: 'St. Vincent and the Grenadines',
+    },
+    {
+      const: 'WS',
+      description: 'Samoa',
+    },
+    {
+      const: 'SM',
+      description: 'San Marino',
+    },
+    {
+      const: 'ST',
+      description: 'São Tomé and Príncipe',
+    },
+    {
+      const: 'SA',
+      description: 'Saudi Arabia',
+    },
+    {
+      const: 'SN',
+      description: 'Senegal',
+    },
+    {
+      const: 'RS',
+      description: 'Serbia',
+    },
+    {
+      const: 'SC',
+      description: 'Seychelles',
+    },
+    {
+      const: 'SL',
+      description: 'Sierra Leone',
+    },
+    {
+      const: 'SG',
+      description: 'Singapore',
+    },
+    {
+      const: 'SX',
+      description: 'Sint Maarten (Dutch part)',
+    },
+    {
+      const: 'SK',
+      description: 'Slovakia',
+    },
+    {
+      const: 'SI',
+      description: 'Slovenia',
+    },
+    {
+      const: 'SB',
+      description: 'Solomon Islands',
+    },
+    {
+      const: 'SO',
+      description: 'Somalia',
+    },
+    {
+      const: 'ZA',
+      description: 'South Africa',
+    },
+    {
+      const: 'GS',
+      description: 'South Georgia and the South Sandwich Islands',
+    },
+    {
+      const: 'SS',
+      description: 'South Sudan',
+    },
+    {
+      const: 'ES',
+      description: 'Spain',
+    },
+    {
+      const: 'LK',
+      description: 'Sri Lanka',
+    },
+    {
+      const: 'SD',
+      description: 'Sudan',
+    },
+    {
+      const: 'SR',
+      description: 'Suriname',
+    },
+    {
+      const: 'SJ',
+      description: 'Svalbard',
+    },
+    {
+      const: 'SZ',
+      description: 'Swaziland',
+    },
+    {
+      const: 'SE',
+      description: 'Sweden',
+    },
+    {
+      const: 'CH',
+      description: 'Switzerland',
+    },
+    {
+      const: 'SY',
+      description: 'Syria',
+    },
+    {
+      const: 'TW',
+      description: 'Taiwan',
+    },
+    {
+      const: 'TJ',
+      description: 'Tajikistan',
+    },
+    {
+      const: 'TZ',
+      description: 'Tanzania',
+    },
+    {
+      const: 'TH',
+      description: 'Thailand',
+    },
+    {
+      const: 'TL',
+      description: 'Democratic Republic of Timor-Leste',
+    },
+    {
+      const: 'TG',
+      description: 'Togo',
+    },
+    {
+      const: 'TK',
+      description: 'Tokelau',
+    },
+    {
+      const: 'TO',
+      description: 'Tonga',
+    },
+    {
+      const: 'TT',
+      description: 'Trinidad and Tobago',
+    },
+    {
+      const: 'TN',
+      description: 'Tunisia',
+    },
+    {
+      const: 'TR',
+      description: 'Turkey',
+    },
+    {
+      const: 'TM',
+      description: 'Turkmenistan',
+    },
+    {
+      const: 'TC',
+      description: 'Turks and Caicos Islands',
+    },
+    {
+      const: 'TV',
+      description: 'Tuvalu',
+    },
+    {
+      const: 'UG',
+      description: 'Uganda',
+    },
+    {
+      const: 'UA',
+      description: 'Ukraine',
+    },
+    {
+      const: 'AE',
+      description: 'United Arab Emirates',
+    },
+    {
+      const: 'GB',
+      description: 'United Kingdom',
+    },
+    {
+      const: 'UM',
+      description: 'U.S. Minor Outlying Islands',
+    },
+    {
+      const: 'US',
+      description: 'United States',
+    },
+    {
+      const: 'UY',
+      description: 'Uruguay',
+    },
+    {
+      const: 'UZ',
+      description: 'Uzbekistan',
+    },
+    {
+      const: 'VU',
+      description: 'Vanuatu',
+    },
+    {
+      const: 'VE',
+      description: 'Bolivarian Republic of Venezuela',
+    },
+    {
+      const: 'VN',
+      description: 'Vietnam',
+    },
+    {
+      const: 'VG',
+      description: 'Virgin Islands, British',
+    },
+    {
+      const: 'VI',
+      description: 'Virgin Islands',
+    },
+    {
+      const: 'WF',
+      description: 'Wallis and Futuna',
+    },
+    {
+      const: 'EH',
+      description: 'Western Sahara',
+    },
+    {
+      const: 'YE',
+      description: 'Yemen',
+    },
+    {
+      const: 'ZM',
+      description: 'Zambia',
+    },
+    {
+      const: 'ZW',
+      description: 'Zimbabwe',
+    },
+  ],
+}

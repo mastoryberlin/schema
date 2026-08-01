@@ -1,0 +1,10 @@
+{
+  required: [
+    'chat',
+    'form',
+    'followUp',
+    'computed',
+    'genFramePlaceholder',
+    'documents',
+  ],
+}

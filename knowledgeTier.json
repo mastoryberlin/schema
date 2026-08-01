@@ -1,0 +1,24 @@
+{
+  oneOf: [
+    {
+      const: 'edusys',
+      description: 'Knowledge scoped by an education system such as a country, state, or district (e.g. Hungary, Illinois/IM, Berlin)',
+    },
+    {
+      const: 'org',
+      description: 'Knowledge scoped by institution or organization (e.g. Artist School xy, Einstein-Gymnasium)',
+    },
+    {
+      const: 'account',
+      description: 'Knowledge scoped by an account, which can be either an individual user account (single person or team – typically educator(s) in charge, e.g. Márta Vitális) or an enterprise account (school or organization)',
+    },
+    {
+      const: 'student',
+      description: 'Knowledge scoped by a group of students. This could be an entire class or course (e.g. My 7b, GK 11/2) or an individual or sub-group of individuals (e.g. Francesca, Ahmed+Selcuk, the 3 musketeer girls)',
+    },
+    {
+      const: 'info',
+      description: 'Unscoped, generic fallback knowledge',
+    },
+  ],
+}

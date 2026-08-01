@@ -1,0 +1,28 @@
+{
+  oneOf: [
+    {
+      const: 'feature',
+      description: 'A new feature to be implemented semi-autonomously via test-driven development: Start by preparing unit tests that capture exactly the requirements, make sure those tests fail at first, then code an implementation until all tests succeed.',
+    },
+    {
+      const: 'bugfix',
+      description: 'A bug fix to be implemented semi-autonomously via test-driven development: Start by preparing unit tests that reproduce exactly the described buggy conditions, make sure those tests fail at first, then code a fix until all tests succeed.',
+    },
+    {
+      const: 'chore',
+      description: 'Clean up or refactor parts of the codebase to improve maintainability, reusability, extensibility, and modularity.',
+    },
+    {
+      const: 'plan',
+      description: 'An area of future dev that needs a planning step before diving into implementation. Research the codebase and/or web resources to come up with a plan for upcoming development steps.',
+    },
+    {
+      const: 'external',
+      description: 'A need of an unusual kind beyond the project scope.',
+    },
+    {
+      const: 'unknown',
+      description: 'Chosen by mastory-prepare when turning string-typed tasks into objects.',
+    },
+  ],
+}

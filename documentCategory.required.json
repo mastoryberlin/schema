@@ -1,0 +1,9 @@
+{
+  required: [
+    ...knowledgeTier,
+    'classroom.worksheet',
+    'plan.timeline',
+    'topic.assessment',
+    'topic.bestPractice',
+  ],
+}

@@ -1,0 +1,10 @@
+{
+  required: [
+    'feature',
+    'bugfix',
+    'chore',
+    'plan',
+    'external',
+    'unknown',
+  ],
+}

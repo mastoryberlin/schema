@@ -1,0 +1,10 @@
+{
+  required: [
+    'foerderschule',
+    'gemeinschaftsschule',
+    'grundschule',
+    'gymnasium',
+    'issMitOberstufe',
+    'issOhneOberstufe',
+  ],
+}

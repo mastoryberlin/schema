@@ -1,0 +1,28 @@
+{
+  oneOf: [
+    {
+      const: 'frame',
+      description: 'Evaluated separately for each genFrame.',
+    },
+    {
+      const: 'document',
+      description: 'Evaluated separately for each document. All genFrames within a document share the same value.',
+    },
+    {
+      const: 'conversation',
+      description: 'Evaluated separately for each conversation. All material documents attached to a conversation share the same value.',
+    },
+    {
+      const: 'profile',
+      description: 'Evaluated separately for each profile. All conversations within an account which target the same profile share the same value.',
+    },
+    {
+      const: 'account',
+      description: 'Evaluated separately for each account. The value is shared across all profiles, conversation, and documents that belong to this account.',
+    },
+    {
+      const: 'organization',
+      description: 'Evaluated separately for each school or organization. The value is shared across all profiles, conversation, and documents that belong to this account.',
+    },
+  ],
+}

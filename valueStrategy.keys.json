@@ -1,0 +1,2 @@
+export const valueStrategy = ['chat', 'form', 'followUp', 'computed', 'genFramePlaceholder', 'documents']
+export type ValueStrategy = typeof valueStrategy[number]

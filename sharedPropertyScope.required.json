@@ -1,0 +1,10 @@
+{
+  required: [
+    'frame',
+    'document',
+    'conversation',
+    'profile',
+    'account',
+    'organization',
+  ],
+}

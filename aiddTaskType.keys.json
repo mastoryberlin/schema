@@ -1,0 +1,2 @@
+export const aiddTaskType = ['feature', 'bugfix', 'chore', 'plan', 'external', 'unknown']
+export type AiddTaskType = typeof aiddTaskType[number]
