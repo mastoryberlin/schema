@@ -1,2 +1,0 @@
-export const locale = ['en', 'de', 'hu']
-export type Locale = typeof locale[number]

@@ -1,2 +1,0 @@
-export const knowledgeTier = ['edusys', 'org', 'account', 'student', 'info']
-export type KnowledgeTier = typeof knowledgeTier[number]

@@ -1,2 +1,0 @@
-export const aiddTaskStatus = ['idea', 'needsPlan', 'planned', 'approved', 'ready', 'inProgress', 'interrupted', 'onHold', 'review', 'done']
-export type AiddTaskStatus = typeof aiddTaskStatus[number]

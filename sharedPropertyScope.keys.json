@@ -1,2 +1,0 @@
-export const sharedPropertyScope = ['frame', 'document', 'conversation', 'profile', 'account', 'organization']
-export type SharedPropertyScope = typeof sharedPropertyScope[number]

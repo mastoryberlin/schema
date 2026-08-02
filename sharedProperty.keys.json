@@ -1,2 +1,0 @@
-export const sharedProperty = ['activityDuration', 'clStage', 'cognitiveLevel', 'country', 'gradeLevel', 'mathTopic', 'pedagogicalUseCase', 'standards', 'targetGroup']
-export type SharedProperty = typeof sharedProperty[number]
