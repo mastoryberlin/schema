@@ -1,8 +1,8 @@
 on:
   push:
-    branches: [main]
-    paths: ['ts/**']
+    branches: [fake]
+    paths: ["ts/**"]
 
 jobs:
   ts-to-json-schemas:
-    uses: './.github/workflows/ts-to-json-schemas.yml'
+    uses: "./.github/workflows/ts-to-json-schemas.yml"
