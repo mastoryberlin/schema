@@ -15,6 +15,10 @@ export default {
       description: 'This value is expected to be stored as hidden metadata in the genFrame as a result of a previous generation.',
     },
     {
+      const: 'database',
+      description: 'The DB "valuation" table is queried for the entry that best matches all available profile and topic tags, and that entry\'s "value" is used.',
+    },
+    {
       const: 'computed',
       description: 'This value is derived from other shared properties by the data agent (using dedicated "computer tools").',
     },

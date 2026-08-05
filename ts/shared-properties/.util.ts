@@ -1,5 +1,5 @@
 import type { FromSchema, JSONSchema } from 'json-schema-to-ts'
-import { valueStrategy, type ValueStrategy } from '../valueStrategy.keys.ts'
+import type { ValueStrategy } from '../valueStrategy.keys.ts'
 import type { DocumentCategory } from '../documentCategory.keys.ts'
 import type { KnowledgeTier } from '../knowledgeTier.keys.ts'
 import type { SharedPropertyScope } from '../sharedPropertyScope.keys.ts'
@@ -85,8 +85,10 @@ export function defineSharedProperty<const Name extends string, const S extends 
           }
         },
       }
-    case 'form':
-      throw `sharedProperty ${name}: valueStrategy "form" is not yet implemented!`
+      case 'form':
+        throw `sharedProperty ${name}: valueStrategy "form" is not yet implemented!`
+    case 'database':
+      return ret
     case 'computed':
       return {
         ...ret,

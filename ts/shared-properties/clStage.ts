@@ -10,8 +10,8 @@ export default defineSharedProperty('clStage', {
       'late',
     ],
     title: 'clStage',
-    description: 'Which standards from the curriculum are related to the activity?',
+    description: 'The target group\'s stage of development within the spectrum of the selected cognitiveLevel.',
   },
 }, 'documents').documentCategories('knowledge.student')
 
-// Computed directly from the cognitiveLevel number
+// ... or compute directly from the cognitiveLevel number ??

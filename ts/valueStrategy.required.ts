@@ -5,6 +5,7 @@ export default {
     'chat',
     'form',
     'followUp',
+    'database',
     'computed',
     'genFramePlaceholder',
     'documents',

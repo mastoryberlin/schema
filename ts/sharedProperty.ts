@@ -8,11 +8,11 @@ export default {
     },
     {
       const: 'clStage',
-      description: 'Which standards from the curriculum are related to the activity?',
+      description: 'The target group\'s stage of development within the spectrum of the selected cognitiveLevel.',
     },
     {
       const: 'cognitiveLevel',
-      description: '',
+      description: 'Which of the following descriptions best matches your students\' general cognitive developmental state?',
     },
     {
       const: 'country',
@@ -32,7 +32,7 @@ export default {
     },
     {
       const: 'standards',
-      description: '',
+      description: 'Which standards from the curriculum are related to the activity?',
     },
     {
       const: 'targetGroup',
