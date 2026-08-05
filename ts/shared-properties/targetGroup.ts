@@ -1,6 +1,7 @@
 import { defineSharedProperty } from './.util.js'
 
 export default defineSharedProperty('targetGroup', {
+  scope: 'profile',
   schema: {
     title: 'Target Group',
     description: `Provide a brief description of the characteristics of the heterogeneous group. This should include characterising any special students or groups whose different needs will require different approaches, such as different roles or differentiated materials during lessons. `,
@@ -9,5 +10,4 @@ export default defineSharedProperty('targetGroup', {
     default: '',
   },
   tags: ['assessment', 'bestPractice'],
-  scope: 'profile',
-}, 'documents').documentCategories('profile')
+}, 'documents').documentCategories('knowledge.student')

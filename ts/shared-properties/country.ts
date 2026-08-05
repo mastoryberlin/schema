@@ -1,6 +1,7 @@
 import { defineSharedProperty } from './.util.ts'
 
 export default defineSharedProperty('country', {
+  scope: 'account',
   schema: {
     type: 'string',
     title: 'Country',

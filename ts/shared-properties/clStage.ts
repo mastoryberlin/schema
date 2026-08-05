@@ -10,7 +10,7 @@ export default defineSharedProperty('clStage', {
       'late',
     ],
     title: 'clStage',
-    description: 'The target group\'s stage of development within the spectrum of the selected cognitiveLevel.',
+    description: 'What\'s your students\' current stage of development within the spectrum of the selected cognitive level?',
   },
 }, 'documents').documentCategories('knowledge.student')
 

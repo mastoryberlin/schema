@@ -1,6 +1,7 @@
 import { defineSharedProperty } from './.util.ts'
 
 export default defineSharedProperty('pedagogicalUseCase', {
+  scope: 'frame',
   schema: {
     type: 'string',
     enum: [

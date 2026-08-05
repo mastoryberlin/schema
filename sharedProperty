@@ -2,7 +2,7 @@
 # Do not edit it manually as it will likely be overwritten!
 
 activityDuration="How many minutes do you plan to spend on the activity?"
-clStage="The target group's stage of development within the spectrum of the selected cognitiveLevel."
+clStage="What's your students' current stage of development within the spectrum of the selected cognitive level?"
 cognitiveLevel="Which of the following descriptions best matches your students' general cognitive developmental state?"
 country="In which country do your students attend school?"
 gradeLevel="What grade level are your students in?"
