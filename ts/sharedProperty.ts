@@ -8,7 +8,7 @@ export default {
     },
     {
       const: 'clStage',
-      description: 'The target group\'s stage of development within the spectrum of the selected cognitiveLevel.',
+      description: 'What\'s your students\' current stage of development within the spectrum of the selected cognitive level?',
     },
     {
       const: 'cognitiveLevel',
@@ -36,7 +36,7 @@ export default {
     },
     {
       const: 'targetGroup',
-      description: '',
+      description: 'Provide a brief description of the characteristics of the heterogeneous group. This should include characterising any special students or groups whose different needs will require different approaches, such as different roles or differentiated materials during lessons. ',
     },
   ],
 } as const satisfies JSONSchema

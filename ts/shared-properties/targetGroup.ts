@@ -1,4 +1,4 @@
-import { defineSharedProperty } from './.util.js'
+import { defineSharedProperty } from './.util.ts'
 
 export default defineSharedProperty('targetGroup', {
   scope: 'profile',
