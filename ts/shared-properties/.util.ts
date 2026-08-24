@@ -8,10 +8,27 @@ import type * as schema from '@nuxthub/db/schema'
 import { sql } from 'drizzle-orm'
 
 type SharedPropertyDefinition<S extends JSONSchema & object, V extends ValueStrategy> = {
+  /**
+   * The JSON schema defining this property's type and structure.
+   */
   schema: S
+  /**
+   * The scope per which this property defines its value.
+   */
   scope: SharedPropertyScope | SharedPropertyScope[]
+  /**
+   * List here any topic or didactical tags that should be auto-implied by this property.
+   */
   tags?: string[]
+  /**
+   * If set to `true`, this property is not required to have a value for generation to succeed.
+   */
   optional?: boolean
+  /**
+   * If `true`, includes this property in the Adjust Panel, allowing the user to manually override any agent-defined setting.
+   * Set this to `false` (default) to explicitly mark the property as a hidden agent-only prop that works behind the scenes.
+   */
+  adjustable?: boolean
 }
 
 type ComputerContext = {
@@ -85,8 +102,8 @@ export function defineSharedProperty<const Name extends string, const S extends 
           }
         },
       }
-      case 'form':
-        throw `sharedProperty ${name}: valueStrategy "form" is not yet implemented!`
+    case 'form':
+      throw `sharedProperty ${name}: valueStrategy "form" is not yet implemented!`
     case 'database':
       return ret
     case 'computed':
