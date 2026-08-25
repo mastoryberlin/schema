@@ -16,6 +16,7 @@ export default {
     '11.agent',
     '12.knowledge',
     '13.generation',
+    '14.billing',
     '99.test',
   ],
 } as const satisfies JSONSchema
