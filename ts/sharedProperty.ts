@@ -12,7 +12,7 @@ export default {
     },
     {
       const: 'cognitiveLevel',
-      description: 'Which of the following descriptions best matches your students\' general cognitive developmental state?',
+      description: 'On a scale from 1 (Sensory-Reflexive Engagement) to 10 (Meta-Systemic Synthesis and Theoretical Creation), which value best matches your students\' general cognitive developmental state?',
     },
     {
       const: 'country',

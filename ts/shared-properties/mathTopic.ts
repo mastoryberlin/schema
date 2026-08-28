@@ -2,6 +2,7 @@ import { defineSharedProperty } from './.util.ts'
 
 export default defineSharedProperty('mathTopic', {
   scope: 'frame',
+  adjustable: true,
   schema: {
     title: 'Math Topic',
     description: 'What math topic would you like to focus on? (e.g., basic arithmetic, solving quadratic equations by factoring, calculating the area of irregular shapes)',

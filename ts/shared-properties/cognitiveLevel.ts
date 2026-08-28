@@ -2,21 +2,28 @@ import { defineSharedProperty } from './.util.ts'
 
 export default defineSharedProperty('cognitiveLevel', {
   scope: 'profile',
+  adjustable: true,
   schema: {
-    type: 'string',
-    enum: [
-      '1 - Sensory-Reflexive Engagement',
-      '2 - Intentional-Participatory Engagement',
-      '3 - Magnitude Discrimination and Magnitude Sense',
-      '4 - Procedural-Symbolic Emergence',
-      '5 - Tangible-Concrete Logic',
-      '6 - Representational-Concrete Abstraction',
-      '7 - Abstract-Tool Mastery',
-      '8 - Formal-Analytical Abstraction',
-      '9 - Strategic-Generative Innovation',
-      '10 - Meta-Systemic Synthesis and Theoretical Creation',
+    type: 'integer',
+    minimum: 1,
+    maximum: 10,
+    description: 'On a scale from 1 (Sensory-Reflexive Engagement) to 10 (Meta-Systemic Synthesis and Theoretical Creation), which value best matches your students\' general cognitive developmental state?',
+    // Per-value display hints (index i corresponds to the value i+1), rendered
+    // by the Adjust Panel below the cognitive-level slider. Kept inside the
+    // schema so every consumer (chat questions, extraction, expert prompts)
+    // shares this one source of truth.
+    'x-value-hints': [
+      'Sensory-Reflexive Engagement',
+      'Intentional-Participatory Engagement',
+      'Magnitude Discrimination and Magnitude Sense',
+      'Procedural-Symbolic Emergence',
+      'Tangible-Concrete Logic',
+      'Representational-Concrete Abstraction',
+      'Abstract-Tool Mastery',
+      'Formal-Analytical Abstraction',
+      'Strategic-Generative Innovation',
+      'Meta-Systemic Synthesis and Theoretical Creation',
     ],
-    description: 'Which of the following descriptions best matches your students\' general cognitive developmental state?',
   },
 }, 'database')
 

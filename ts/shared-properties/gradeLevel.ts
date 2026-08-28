@@ -2,6 +2,7 @@ import { defineSharedProperty } from './.util.ts'
 
 export default defineSharedProperty('gradeLevel', {
   scope: 'profile',
+  adjustable: true,
   schema: {
     type: 'string',
     enum: [

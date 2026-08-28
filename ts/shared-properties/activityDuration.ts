@@ -2,6 +2,7 @@ import { defineSharedProperty } from './.util.ts'
 
 export default defineSharedProperty('activityDuration', {
   scope: 'frame',
+  adjustable: true,
   schema: {
     type: 'integer',
     title: 'Planned Activity Duration (In Minutes):',

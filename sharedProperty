@@ -3,7 +3,7 @@
 
 activityDuration="How many minutes do you plan to spend on the activity?"
 clStage="What's your students' current stage of development within the spectrum of the selected cognitive level?"
-cognitiveLevel="Which of the following descriptions best matches your students' general cognitive developmental state?"
+cognitiveLevel="On a scale from 1 (Sensory-Reflexive Engagement) to 10 (Meta-Systemic Synthesis and Theoretical Creation), which value best matches your students' general cognitive developmental state?"
 country="In which country do your students attend school?"
 gradeLevel="What grade level are your students in?"
 mathTopic="What math topic would you like to focus on? (e.g., basic arithmetic, solving quadratic equations by factoring, calculating the area of irregular shapes)"
