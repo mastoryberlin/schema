@@ -23183,8 +23183,46 @@ enum E578 {
   "Übersetzungen zwischen verschiedenen Darstellungen (symbolisch, grafisch, sprachlich, auch in Kontexten) von Termen, Gleichungen (auch für quadratische Zusammenhänge) und linearen Gleichungssystemen mit zwei Variablen (auch mithilfe von digitalen Mathematikwerkzeugen)." = "Übersetzungen zwischen verschiedenen Darstellungen (symbolisch, grafisch, sprachlich, auch in Kontexten) von Termen, Gleichungen (auch für quadratische Zusammenhänge) und linearen Gleichungssystemen mit zwei Variablen (auch mithilfe von digitalen Mathematikwerkzeugen).",
 }
 
-/** Standards for Tag "gesamtschule" */
+/** Standards for Tag "" */
 enum E579 {
+  /**  */
+  "Lineare, allgemeine quadratische und biquadratische Gleichungen sowie Gleichungen höheren Grades (unter Verwendung der Polynomdivision und der Linearfaktorzerlegung)." = "Lineare, allgemeine quadratische und biquadratische Gleichungen sowie Gleichungen höheren Grades (unter Verwendung der Polynomdivision und der Linearfaktorzerlegung).",
+  /**  */
+  "Nutzung der Zusammenhänge zum Umrechnen von Einheiten der Länge, des Flächeninhalts, des Volumens, des Geldes, der Masse, der Zeit." = "Nutzung der Zusammenhänge zum Umrechnen von Einheiten der Länge, des Flächeninhalts, des Volumens, des Geldes, der Masse, der Zeit.",
+  /**  */
+  "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch a, ha, $km^2$)." = "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch a, ha, $km^2$).",
+  /**  */
+  "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch a, ha, $km^2$)." = "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch a, ha, $km^2$).",
+  /**  */
+  "Zuordnen von Größenangaben zu vertrauten Objekten (Repräsentanten) (auch a, ha, $km^2$)." = "Zuordnen von Größenangaben zu vertrauten Objekten (Repräsentanten) (auch a, ha, $km^2$).",
+}
+
+/** Standards for Tag "year," */
+enum E580 {
+  /** year, */
+  "Nutzung der Zusammenhänge zum Umrechnen von Einheiten (auch unter Nutzung von Zehnerpotenzen)." = "Nutzung der Zusammenhänge zum Umrechnen von Einheiten (auch unter Nutzung von Zehnerpotenzen).",
+  /** year, */
+  "Nutzung der Zusammenhänge zum Umrechnen von Einheiten der Länge, des Flächeninhalts, des Volumens, des Geldes, der Masse, der Zeit." = "Nutzung der Zusammenhänge zum Umrechnen von Einheiten der Länge, des Flächeninhalts, des Volumens, des Geldes, der Masse, der Zeit.",
+  /** year, */
+  "Situationsangemessenes Nutzen von Einheiten zu Größen (auch bei sehr großen und sehr kleinen Größenangaben)." = "Situationsangemessenes Nutzen von Einheiten zu Größen (auch bei sehr großen und sehr kleinen Größenangaben).",
+  /** year, */
+  "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch a, ha, $km^2$)." = "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch a, ha, $km^2$).",
+  /** year, */
+  "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch unter Nutzung der Zehnerpotenzen zur Beschreibung von Einheitenvorsätzen von Milli bis Kilo)." = "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch unter Nutzung der Zehnerpotenzen zur Beschreibung von Einheitenvorsätzen von Milli bis Kilo).",
+  /** year, */
+  "Systematisierung der bisherigen Kenntnisse über Größen und ihre Einheiten sowie die Beziehungen zwischen den verschiedenen Größen (auch aus verschiedenen Unterrichtsfächern) unter Einbeziehung der Zehnerpotenzen." = "Systematisierung der bisherigen Kenntnisse über Größen und ihre Einheiten sowie die Beziehungen zwischen den verschiedenen Größen (auch aus verschiedenen Unterrichtsfächern) unter Einbeziehung der Zehnerpotenzen.",
+  /** year, */
+  "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch a, ha, $km^2$)." = "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch a, ha, $km^2$).",
+  /** year, */
+  "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch unter Nutzung der Zehnerpotenzen zur Beschreibung von Einheitenvorsätzen)." = "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch unter Nutzung der Zehnerpotenzen zur Beschreibung von Einheitenvorsätzen).",
+  /** year, */
+  "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (unter Anwendung der Dezimalschreibweise)." = "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (unter Anwendung der Dezimalschreibweise).",
+  /** year, */
+  "Zuordnen von Größenangaben zu vertrauten Objekten (Repräsentanten) (auch a, ha, $km^2$)." = "Zuordnen von Größenangaben zu vertrauten Objekten (Repräsentanten) (auch a, ha, $km^2$).",
+}
+
+/** Standards for Tag "gesamtschule" */
+enum E581 {
   /** gesamtschule */
   "Ableiten unter Verwendung der Konstanten-, Potenz-, Faktor-, Summen-, Produkt- und Kettenregel." = "Ableiten unter Verwendung der Konstanten-, Potenz-, Faktor-, Summen-, Produkt- und Kettenregel.",
   /** gesamtschule */
@@ -23849,44 +23887,6 @@ enum E579 {
   "Übersetzen zwischen symbolischer, sprachlicher, tabellarischer und grafischer Form von direkt proportionalen und indirekt proportionalen Zuordnungen (auch mithilfe von digitalen Mathematikwerkzeugen)." = "Übersetzen zwischen symbolischer, sprachlicher, tabellarischer und grafischer Form von direkt proportionalen und indirekt proportionalen Zuordnungen (auch mithilfe von digitalen Mathematikwerkzeugen).",
   /** gesamtschule */
   "Übersetzen zwischen symbolischer, sprachlicher, tabellarischer und grafischer Form von direkt proportionalen und indirekt proportionalen Zuordnungen." = "Übersetzen zwischen symbolischer, sprachlicher, tabellarischer und grafischer Form von direkt proportionalen und indirekt proportionalen Zuordnungen.",
-}
-
-/** Standards for Tag "year," */
-enum E580 {
-  /** year, */
-  "Nutzung der Zusammenhänge zum Umrechnen von Einheiten (auch unter Nutzung von Zehnerpotenzen)." = "Nutzung der Zusammenhänge zum Umrechnen von Einheiten (auch unter Nutzung von Zehnerpotenzen).",
-  /** year, */
-  "Nutzung der Zusammenhänge zum Umrechnen von Einheiten der Länge, des Flächeninhalts, des Volumens, des Geldes, der Masse, der Zeit." = "Nutzung der Zusammenhänge zum Umrechnen von Einheiten der Länge, des Flächeninhalts, des Volumens, des Geldes, der Masse, der Zeit.",
-  /** year, */
-  "Situationsangemessenes Nutzen von Einheiten zu Größen (auch bei sehr großen und sehr kleinen Größenangaben)." = "Situationsangemessenes Nutzen von Einheiten zu Größen (auch bei sehr großen und sehr kleinen Größenangaben).",
-  /** year, */
-  "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch a, ha, $km^2$)." = "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch a, ha, $km^2$).",
-  /** year, */
-  "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch unter Nutzung der Zehnerpotenzen zur Beschreibung von Einheitenvorsätzen von Milli bis Kilo)." = "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch unter Nutzung der Zehnerpotenzen zur Beschreibung von Einheitenvorsätzen von Milli bis Kilo).",
-  /** year, */
-  "Systematisierung der bisherigen Kenntnisse über Größen und ihre Einheiten sowie die Beziehungen zwischen den verschiedenen Größen (auch aus verschiedenen Unterrichtsfächern) unter Einbeziehung der Zehnerpotenzen." = "Systematisierung der bisherigen Kenntnisse über Größen und ihre Einheiten sowie die Beziehungen zwischen den verschiedenen Größen (auch aus verschiedenen Unterrichtsfächern) unter Einbeziehung der Zehnerpotenzen.",
-  /** year, */
-  "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch a, ha, $km^2$)." = "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch a, ha, $km^2$).",
-  /** year, */
-  "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch unter Nutzung der Zehnerpotenzen zur Beschreibung von Einheitenvorsätzen)." = "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch unter Nutzung der Zehnerpotenzen zur Beschreibung von Einheitenvorsätzen).",
-  /** year, */
-  "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (unter Anwendung der Dezimalschreibweise)." = "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (unter Anwendung der Dezimalschreibweise).",
-  /** year, */
-  "Zuordnen von Größenangaben zu vertrauten Objekten (Repräsentanten) (auch a, ha, $km^2$)." = "Zuordnen von Größenangaben zu vertrauten Objekten (Repräsentanten) (auch a, ha, $km^2$).",
-}
-
-/** Standards for Tag "" */
-enum E581 {
-  /**  */
-  "Lineare, allgemeine quadratische und biquadratische Gleichungen sowie Gleichungen höheren Grades (unter Verwendung der Polynomdivision und der Linearfaktorzerlegung)." = "Lineare, allgemeine quadratische und biquadratische Gleichungen sowie Gleichungen höheren Grades (unter Verwendung der Polynomdivision und der Linearfaktorzerlegung).",
-  /**  */
-  "Nutzung der Zusammenhänge zum Umrechnen von Einheiten der Länge, des Flächeninhalts, des Volumens, des Geldes, der Masse, der Zeit." = "Nutzung der Zusammenhänge zum Umrechnen von Einheiten der Länge, des Flächeninhalts, des Volumens, des Geldes, der Masse, der Zeit.",
-  /**  */
-  "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch a, ha, $km^2$)." = "Situationsangemessenes Verwenden von Größen und ihren Einheiten (auch a, ha, $km^2$).",
-  /**  */
-  "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch a, ha, $km^2$)." = "Umwandeln und Ordnen von Einheiten bekannter Größen und Darstellen in unterschiedlichen Schreibweisen (auch a, ha, $km^2$).",
-  /**  */
-  "Zuordnen von Größenangaben zu vertrauten Objekten (Repräsentanten) (auch a, ha, $km^2$)." = "Zuordnen von Größenangaben zu vertrauten Objekten (Repräsentanten) (auch a, ha, $km^2$).",
 }
 
 /** Standards for Tag "oberschule" */
@@ -25671,9 +25671,9 @@ export const standardsByTag = {
   " l2: größen und messen": E576,
   " millimeter cubed": E577,
   "brandenburg": E578,
-  "gesamtschule": E579,
+  "": E579,
   "year,": E580,
-  "": E581,
+  "gesamtschule": E581,
   "oberschule": E582,
   "ebr-kurs": E583,
   "for-kurs": E584,
