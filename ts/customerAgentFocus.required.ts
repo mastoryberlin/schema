@@ -3,9 +3,7 @@ import type { JSONSchema } from 'json-schema-to-ts'
 export default {
   required: [
     'openDispatch',
-    'setUpNewSchool',
-    'setUpNewClass',
-    'setUpNewSubGroup',
+    'setUpNewTargetGroup',
     'clarifyGenerationGoal',
     'consult',
     'coCreate',
