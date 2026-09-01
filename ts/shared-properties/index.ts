@@ -5,11 +5,13 @@ import activityDuration from './activityDuration.ts'
 import clStage from './clStage.ts'
 import cognitiveLevel from './cognitiveLevel.ts'
 import country from './country.ts'
+import diagramSubject from './diagramSubject.ts'
 import gradeLevel from './gradeLevel.ts'
 import imageStyle from './imageStyle.ts'
 import imageSubject from './imageSubject.ts'
 import mathTopic from './mathTopic.ts'
 import pedagogicalUseCase from './pedagogicalUseCase.ts'
+import showCoordinatePlane from './showCoordinatePlane.ts'
 import standards from './standards.ts'
 import targetGroup from './targetGroup.ts'
 
@@ -18,11 +20,13 @@ export {
   clStage,
   cognitiveLevel,
   country,
+  diagramSubject,
   gradeLevel,
   imageStyle,
   imageSubject,
   mathTopic,
   pedagogicalUseCase,
+  showCoordinatePlane,
   standards,
   targetGroup,
 }

@@ -5,11 +5,13 @@
     "clStage",
     "cognitiveLevel",
     "country",
+    "diagramSubject",
     "gradeLevel",
     "imageStyle",
     "imageSubject",
     "mathTopic",
     "pedagogicalUseCase",
+    "showCoordinatePlane",
     "standards",
     "targetGroup"
   ]

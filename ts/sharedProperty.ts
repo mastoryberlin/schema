@@ -19,6 +19,10 @@ export default {
       description: 'In which country do your students attend school?',
     },
     {
+      const: 'diagramSubject',
+      description: 'Describe what the diagram should and shouldn\'t contain - e.g. geometrical shapes, function graphs, points, labels - how elements should look and how to arrange them. Mention whether a coordinate plane with axes is wanted.',
+    },
+    {
       const: 'gradeLevel',
       description: 'What grade level are your students in?',
     },
@@ -37,6 +41,10 @@ export default {
     {
       const: 'pedagogicalUseCase',
       description: 'Which didactic use-case best matches the lesson in question?',
+    },
+    {
+      const: 'showCoordinatePlane',
+      description: 'Should the diagram include a coordinate plane with axes, ticks, and number labels?',
     },
     {
       const: 'standards',
