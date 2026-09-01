@@ -7,16 +7,8 @@ export default {
       description: 'Find out what a new chat should be about, then dispatch to another focus accordingly.',
     },
     {
-      const: 'setUpNewSchool',
-      description: 'Chat with the user to collect information on a new school, including: students, colleagues, parents, specialties ...?',
-    },
-    {
-      const: 'setUpNewClass',
-      description: 'Chat with the user to collect information on a new class, including: grade level, group size, academic strength, group structure and dynamics, discipline, observations, special remarks ...',
-    },
-    {
-      const: 'setUpNewSubGroup',
-      description: 'Chat with the user to collect information on a new subgroup of students within a class (including the case of just one individual student): academic strength and weaknesses, learning type, discipline, observations, special remarks ...',
+      const: 'setUpNewTargetGroup',
+      description: 'Chat with the user to collect information on a new target group profile - a school, a class, or a (sub)group of students within a class - as detailed in the current focus context.',
     },
     {
       const: 'clarifyGenerationGoal',

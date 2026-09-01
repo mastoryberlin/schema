@@ -2,9 +2,7 @@
   "$schema": "https://json-schema.org/draft/2019-09/schema",
   "required": [
     "openDispatch",
-    "setUpNewSchool",
-    "setUpNewClass",
-    "setUpNewSubGroup",
+    "setUpNewTargetGroup",
     "clarifyGenerationGoal",
     "consult",
     "coCreate",
