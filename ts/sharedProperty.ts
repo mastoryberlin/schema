@@ -23,6 +23,14 @@ export default {
       description: 'What grade level are your students in?',
     },
     {
+      const: 'imageStyle',
+      description: 'If you like, add some keywords on the desired image style, e.g. artistic, sci-fi realism, comic book ...',
+    },
+    {
+      const: 'imageSubject',
+      description: 'Describe in 1-2 sentences what the image should contain - its depicted content, style and configuration - and what it shouldn\'t.',
+    },
+    {
       const: 'mathTopic',
       description: 'What math topic would you like to focus on? (e.g., basic arithmetic, solving quadratic equations by factoring, calculating the area of irregular shapes)',
     },

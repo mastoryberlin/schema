@@ -6,6 +6,8 @@ import clStage from './clStage.ts'
 import cognitiveLevel from './cognitiveLevel.ts'
 import country from './country.ts'
 import gradeLevel from './gradeLevel.ts'
+import imageStyle from './imageStyle.ts'
+import imageSubject from './imageSubject.ts'
 import mathTopic from './mathTopic.ts'
 import pedagogicalUseCase from './pedagogicalUseCase.ts'
 import standards from './standards.ts'
@@ -17,6 +19,8 @@ export {
   cognitiveLevel,
   country,
   gradeLevel,
+  imageStyle,
+  imageSubject,
   mathTopic,
   pedagogicalUseCase,
   standards,

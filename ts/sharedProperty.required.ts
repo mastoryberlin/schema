@@ -7,6 +7,8 @@ export default {
     'cognitiveLevel',
     'country',
     'gradeLevel',
+    'imageStyle',
+    'imageSubject',
     'mathTopic',
     'pedagogicalUseCase',
     'standards',
