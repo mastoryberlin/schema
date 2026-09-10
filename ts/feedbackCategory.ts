@@ -1,0 +1,34 @@
+import type { JSONSchema } from 'json-schema-to-ts'
+
+export default {
+  oneOf: [
+    {
+      const: 'requestFit',
+      description: 'How well does this result match the user request from the conversation?',
+    },
+    {
+      const: 'profileFit',
+      description: 'How well does this result match the profile selected by the user?',
+    },
+    {
+      const: 'curriculumFit',
+      description: 'How well does this result match the expectations articulated in the relevant curriculum (standards)?',
+    },
+    {
+      const: 'creativity',
+      description: 'How creative is the result?',
+    },
+    {
+      const: 'stepControl',
+      description: 'How much control did the process grant the user during initial generation?"	automationConvenience="How little did the user have to explain, adjust, or correct manually?',
+    },
+    {
+      const: 'latency',
+      description: 'Was the result delivered fast?',
+    },
+    {
+      const: 'cost',
+      description: 'How expensive was the generation process in total?',
+    },
+  ],
+} as const satisfies JSONSchema

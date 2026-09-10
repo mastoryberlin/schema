@@ -1,2 +1,2 @@
-export const aiddDomain = ['pnpm-lock'] as const
+export const aiddDomain = ['pnpm-lock', 'pnpm-workspace'] as const
 export type AiddDomain = typeof aiddDomain[number]

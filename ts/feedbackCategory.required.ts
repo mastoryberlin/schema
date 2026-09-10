@@ -2,7 +2,12 @@ import type { JSONSchema } from 'json-schema-to-ts'
 
 export default {
   required: [
-    'pnpm-lock',
-    'pnpm-workspace',
+    'requestFit',
+    'profileFit',
+    'curriculumFit',
+    'creativity',
+    'stepControl',
+    'latency',
+    'cost',
   ],
 } as const satisfies JSONSchema

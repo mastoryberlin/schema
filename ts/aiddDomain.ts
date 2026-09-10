@@ -6,5 +6,9 @@ export default {
       const: 'pnpm-lock',
       description: '',
     },
+    {
+      const: 'pnpm-workspace',
+      description: '',
+    },
   ],
 } as const satisfies JSONSchema

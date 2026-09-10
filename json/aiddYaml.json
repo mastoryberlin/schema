@@ -252,6 +252,10 @@
                       {
                         "const": "pnpm-lock",
                         "description": ""
+                      },
+                      {
+                        "const": "pnpm-workspace",
+                        "description": ""
                       }
                     ]
                   },
@@ -614,6 +618,10 @@
                         "oneOf": [
                           {
                             "const": "pnpm-lock",
+                            "description": ""
+                          },
+                          {
+                            "const": "pnpm-workspace",
                             "description": ""
                           }
                         ]
