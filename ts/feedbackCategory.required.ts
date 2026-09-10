@@ -7,6 +7,7 @@ export default {
     'curriculumFit',
     'creativity',
     'stepControl',
+    'automationConvenience',
     'latency',
     'cost',
   ],

@@ -20,7 +20,11 @@ export default {
     },
     {
       const: 'stepControl',
-      description: 'How much control did the process grant the user during initial generation?"	automationConvenience="How little did the user have to explain, adjust, or correct manually?',
+      description: 'How much control did the process grant the user during initial generation?',
+    },
+    {
+      const: 'automationConvenience',
+      description: 'How little did the user have to explain, adjust, or correct manually?',
     },
     {
       const: 'latency',
