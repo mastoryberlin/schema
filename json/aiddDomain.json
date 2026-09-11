@@ -4,6 +4,10 @@
     {
       "const": "pnpm-lock",
       "description": ""
+    },
+    {
+      "const": "pnpm-workspace",
+      "description": ""
     }
   ]
 }

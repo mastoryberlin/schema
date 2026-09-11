@@ -1,0 +1,8 @@
+requestFit="How well does this result match the user request from the conversation?"
+profileFit="How well does this result match the profile selected by the user?"
+curriculumFit="How well does this result match the expectations articulated in the relevant curriculum (standards)?"
+creativity="How creative is the result?"
+stepControl="How much control did the process grant the user during initial generation?"
+automationConvenience="How little did the user have to explain, adjust, or correct manually?"
+latency="Was the result delivered fast?"
+cost="How expensive was the generation process in total?"

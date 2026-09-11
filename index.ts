@@ -4,6 +4,7 @@ import { aiddTaskType, type AiddTaskType } from './ts/aiddTaskType.keys'
 import { country, type Country } from './ts/country.keys'
 import { customerAgentFocus, type CustomerAgentFocus } from './ts/customerAgentFocus.keys'
 import { documentCategory, type DocumentCategory } from './ts/documentCategory.keys'
+import { feedbackCategory, type FeedbackCategory } from './ts/feedbackCategory.keys'
 import { knowledgeTier, type KnowledgeTier } from './ts/knowledgeTier.keys'
 import { layer, type Layer } from './ts/layer.keys'
 import { locale, type Locale } from './ts/locale.keys'
@@ -14,5 +15,5 @@ import { sharedPropertyScope, type SharedPropertyScope } from './ts/sharedProper
 import { testStrategy, type TestStrategy } from './ts/testStrategy.keys'
 import { valueStrategy, type ValueStrategy } from './ts/valueStrategy.keys'
 
-export { aiddDomain, aiddTaskStatus, aiddTaskType, country, customerAgentFocus, documentCategory, knowledgeTier, layer, locale, school, schoolSystem_DE, sharedProperty, sharedPropertyScope, testStrategy, valueStrategy }
-export type { AiddDomain, AiddTaskStatus, AiddTaskType, Country, CustomerAgentFocus, DocumentCategory, KnowledgeTier, Layer, Locale, School, SchoolSystemDe, SharedProperty, SharedPropertyScope, TestStrategy, ValueStrategy }
+export { aiddDomain, aiddTaskStatus, aiddTaskType, country, customerAgentFocus, documentCategory, feedbackCategory, knowledgeTier, layer, locale, school, schoolSystem_DE, sharedProperty, sharedPropertyScope, testStrategy, valueStrategy }
+export type { AiddDomain, AiddTaskStatus, AiddTaskType, Country, CustomerAgentFocus, DocumentCategory, FeedbackCategory, KnowledgeTier, Layer, Locale, School, SchoolSystemDe, SharedProperty, SharedPropertyScope, TestStrategy, ValueStrategy }
