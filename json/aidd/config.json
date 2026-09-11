@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "type": "object",
+  "properties": {
+    "$schema": true,
+    "paths": {
+      "type": "object",
+      "patternProperties": {
+        "(?:prompts)": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "feedback": {
+      "type": "object",
+      "patternProperties": {
+        "(?:requestFit|profileFit|curriculumFit|creativity|stepControl|automationConvenience|latency|cost)": {
+          "type": "object",
+          "properties": {
+            "mode": {
+              "type": "string",
+              "enum": [
+                "auto",
+                "human"
+              ]
+            },
+            "threshold": {
+              "type": "number",
+              "enum": [
+                0.5,
+                1,
+                1.5,
+                2,
+                2.5,
+                3,
+                3.5,
+                4,
+                4.5,
+                5
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
